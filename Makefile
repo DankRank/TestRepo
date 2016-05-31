@@ -1,4 +1,4 @@
-all:hello
+all:hello.exe
 
-hello:hello.c
-	gcc -o hello hello.c
+hello.exe:hello.c
+	gcc -o hello.exe hello.c
