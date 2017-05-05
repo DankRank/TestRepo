@@ -1,3 +1,5 @@
+.PHONY:all
+
 all:hello.exe
 
 hello.exe:hello.c
